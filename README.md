@@ -1,7 +1,50 @@
-# website-deploy-repo
+# Website Deployment Automation (CI/CD Pipeline)
 
-Website Deployment Automation 
+This project demonstrates how to automate the deployment of a static website using a CI/CD pipeline.  
+Each time developers push code to the repository, the pipeline automatically rebuilds and deploys the updated website.
 
-Your team needs an automated solution to deploy a static website. Developers currently have to deploy manually every time they want to test new updates, which slows down their workflow. The goal of this project is to set up a fully automated CI/CD pipeline that deploys the website to an S3-hosted static site whenever changes are pushed to the repository.
+---
 
-Once the pipeline is configured, developers will simply commit updates to the Git repository, and the pipeline will automatically rebuild and redeploy the site. You will also validate the setup by making a small change to the code to confirm that the deployment triggers correctly and that the updated site becomes available through the static URL.
+## 🚀 Objective
+
+- Remove manual deployment steps
+- Speed up delivery of website changes
+- Ensure consistent and automated deployment
+- Show understanding of DevOps CI/CD concepts
+
+This project simulates a real DevOps workflow where every commit triggers a full automated deployment process.
+
+---
+
+## 🧩 Features
+
+- Automatic pipeline trigger on every push  
+- Static website build step  
+- Deployment step to a hosting environment (ex: S3, static server, or GitHub Pages)  
+- Version-controlled infrastructure  
+- Clean and simple folder structure  
+
+---
+
+## 📁 Project Structure
+
+website-deploy-repo/
+├── index.html
+└── README.md
+
+---
+
+The project remains simple to focus on demonstrating CI/CD automation.
+
+---
+
+## ▶️ How to Run
+
+### Clone the repository
+```bash
+git clone https://github.com/ton-username/website-deploy-repo.git
+cd website-deploy-repo
+
+---
+
+
