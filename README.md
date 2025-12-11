@@ -32,8 +32,6 @@ website-deploy-repo/
 ├── index.html
 └── README.md
 
----
-
 The project remains simple to focus on demonstrating CI/CD automation.
 
 ---
