@@ -42,9 +42,20 @@ The project remains simple to focus on demonstrating CI/CD automation.
 
 ### Clone the repository
 ```bash
-git clone https://github.com/ton-username/website-deploy-repo.git
+git clone https://github.com/donotkg/website-deploy-repo/tree/main
 cd website-deploy-repo
+
+Open the file in your browser:
+index.html
 
 ---
 
+CI/CD Pipeline
+
+Whenever code is pushed to this repository:
+	1.	The pipeline runs automatically
+	2.	The website is rebuilt
+	3.	The new version is deployed to the hosting environment
+
+(No manual steps required.)
 
